@@ -145,8 +145,8 @@ The research highlights the ethical concerns surrounding AI-driven recruitment s
 1.  Clone this repository:
 
     ```
-    git clone https://github.com/yourusername/recruitment-bias-analysis.git
-    cd recruitment-bias-analysis
+    git clone https://github.com/yourusername/ResearchLab.git
+    cd ResearchLab
     ```
 2.  Install dependencies:
 
