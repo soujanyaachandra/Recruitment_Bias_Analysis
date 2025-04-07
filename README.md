@@ -75,11 +75,11 @@ Example: X =e.g., programmer, engineer, scientist, ... Y = nurse, teacher,
 librarian, ...,
 – Attribute Sets (A, B): The groups you’re comparing.
 Example: A = Male-associated words, B = Female-associated words.
-s(w, A, B) is the association score of a word w with the attribute sets A and B. We take the average of these scores for all words in X and subtract the average for all words in Y. The standard deviation measures how much the association
-scores vary across all words in X and Y. This ensures that the effect size is standardized, so it’s not influenced by the scale of the data.
-                       <img width="350" alt="image" src="https://github.com/user-attachments/assets/a3c7d107-accf-44cf-bfe1-542c6240e05f" />
-                   
-
+s(w, A, B) is the association score of a word w with the attribute sets A and B. We take the average of these scores for all words in X and subtract the average for all words in Y. The standard deviation measures how much the association scores vary across all words in X and Y. This ensures that the effect size is standardized, so it’s not influenced by the scale of the data.                 
+ <div style="text-align: center;">
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/a3c7d107-accf-44cf-bfe1-542c6240e05f" />
+ </div>
+                 
 - d > 0 → More association between X and A.
 - d < 0 → More association between X and B.
 - The range of this lies from -2 to 2
@@ -136,8 +136,8 @@ The research highlights the ethical concerns surrounding AI-driven recruitment s
 │ ├── AllPlots/ # Notebook containing the visualizations of the results
 ├── Supervised learning/ # Notebook for the machine learning aspect
 │ ├── Supervised_learning.ipynb # Supervised learning with machine learning models
+├── requirements.txt # necessary libraries 
 ├── README.md
-
 
 ---
 
