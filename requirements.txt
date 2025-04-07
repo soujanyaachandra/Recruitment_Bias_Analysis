@@ -1,0 +1,21 @@
+## DEPENDENCIES
+
+Core Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0 # For cosine distance
+
+NLP Preprocessing
+nltk>=3.6.3 # For stopwords, lemmatization
+
+Feature Extraction
+scikit-learn>=0.24.2 # For TF-IDF
+
+Deep Learning + Transformers
+transformers>=4.31.0
+tokenizers>=0.13.0
+torch>=1.10.0 # Backend for HuggingFace models (if not using TF)
+
+Visualization
+matplotlib>=3.4.2
+seaborn>=0.11.1
