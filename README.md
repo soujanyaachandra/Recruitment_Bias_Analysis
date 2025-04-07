@@ -70,12 +70,11 @@ Two supervised learning models were employed:
 ### Bias Analysis Tools
 Bias was analyzed using the Word Embedding Association Test (WEAT).
 Consider
-– Target Sets (X,Y ): The concepts you’re testing for association.
-Example: X =e.g., programmer, engineer, scientist, ... Y = nurse, teacher,
-librarian, ...,
-– Attribute Sets (A, B): The groups you’re comparing.
-Example: A = Male-associated words, B = Female-associated words.
-s(w, A, B) is the association score of a word w with the attribute sets A and B. We take the average of these scores for all words in X and subtract the average for all words in Y. The standard deviation measures how much the association scores vary across all words in X and Y. This ensures that the effect size is standardized, so it’s not influenced by the scale of the data.                 
+– Target Sets (X,Y ): The concepts you’re testing for association. Example: X =e.g., programmer, engineer, scientist, ... Y = nurse, teacher, librarian, ...,
+– Attribute Sets (A, B): The groups you’re comparing. Example: A = Male-associated words, B = Female-associated words.
+- s(w, A, B) is the association score of a word w with the attribute sets A and B. We take the average of these scores for all words in X and subtract the average for all words in Y.
+- The standard deviation measures how much the association scores vary across all words in X and Y. This ensures that the effect size is standardized, so it’s not influenced by the scale of the data.   
+
  <div style="text-align: center;">
   <img width="350" alt="image" src="https://github.com/user-attachments/assets/a3c7d107-accf-44cf-bfe1-542c6240e05f" />
  </div>
