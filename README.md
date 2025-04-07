@@ -136,6 +136,8 @@ The research highlights the ethical concerns surrounding AI-driven recruitment s
 ├── Supervised learning/ # Notebook for the machine learning aspect
 │ ├── Supervised_learning.ipynb # Supervised learning with machine learning models
 ├── requirements.txt # necessary libraries 
+├── documentation
+│ ├── Analysis of bias in recruitment systems utilizing large language models # project documentation
 ├── README.md
 
 ---
